@@ -15,7 +15,8 @@ class SecondViewController: UIViewController {
     @IBAction func addItem(sender: AnyObject) {
         toDoList.append(itemTextField.text)
         itemTextField.text = ""
-        NSUserDefaults.standardUserDefaults().setObject(toDoList, forKey: "toDoList")
+        defaults?.setObject(toDoList, forKey: "toDoList")
+        defaults?.synchronize()
     }
     
     override func viewDidLoad() {

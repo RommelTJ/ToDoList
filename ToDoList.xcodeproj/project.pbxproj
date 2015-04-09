@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		778AA1CF1AD72CDA00DFD807 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778AA1CE1AD72CDA00DFD807 /* InterfaceController.swift */; };
+		778AA1D11AD72CDA00DFD807 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778AA1D01AD72CDA00DFD807 /* Images.xcassets */; };
+		778AA1D51AD72CDA00DFD807 /* ToDoList WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 778AA1D41AD72CDA00DFD807 /* ToDoList WatchKit App.app */; };
+		778AA1DD1AD72CDA00DFD807 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778AA1DB1AD72CDA00DFD807 /* Interface.storyboard */; };
+		778AA1DF1AD72CDB00DFD807 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778AA1DE1AD72CDB00DFD807 /* Images.xcassets */; };
+		778AA1E21AD72CDB00DFD807 /* ToDoList WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 778AA1CA1AD72CDA00DFD807 /* ToDoList WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		778AA1EE1AD72F8300DFD807 /* TableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778AA1EC1AD72F6B00DFD807 /* TableRowController.swift */; };
 		77A5295F1AA03010007A0A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A5295E1AA03010007A0A3A /* AppDelegate.swift */; };
 		77A529611AA03010007A0A3A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A529601AA03010007A0A3A /* FirstViewController.swift */; };
 		77A529631AA03010007A0A3A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A529621AA03010007A0A3A /* SecondViewController.swift */; };
@@ -17,6 +24,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		778AA1D61AD72CDA00DFD807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A529511AA03010007A0A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778AA1D31AD72CDA00DFD807;
+			remoteInfo = "ToDoList WatchKit App";
+		};
+		778AA1E01AD72CDB00DFD807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A529511AA03010007A0A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778AA1C91AD72CDA00DFD807;
+			remoteInfo = "ToDoList WatchKit Extension";
+		};
 		77A529711AA03010007A0A3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 77A529511AA03010007A0A3A /* Project object */;
@@ -26,7 +47,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		778AA1E91AD72CDB00DFD807 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				778AA1E21AD72CDB00DFD807 /* ToDoList WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		778AA1CA1AD72CDA00DFD807 /* ToDoList WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ToDoList WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		778AA1CD1AD72CDA00DFD807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778AA1CE1AD72CDA00DFD807 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		778AA1D01AD72CDA00DFD807 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		778AA1D41AD72CDA00DFD807 /* ToDoList WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDoList WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		778AA1DA1AD72CDA00DFD807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778AA1DC1AD72CDA00DFD807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		778AA1DE1AD72CDB00DFD807 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		778AA1EA1AD72D2600DFD807 /* ToDoList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ToDoList.entitlements; sourceTree = "<group>"; };
+		778AA1EB1AD72D5B00DFD807 /* ToDoList WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ToDoList WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		778AA1EC1AD72F6B00DFD807 /* TableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableRowController.swift; path = "../ToDoList WatchKit App/TableRowController.swift"; sourceTree = "<group>"; };
 		77A529591AA03010007A0A3A /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A5295D1AA03010007A0A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77A5295E1AA03010007A0A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +87,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		778AA1C71AD72CDA00DFD807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77A529561AA03010007A0A3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,11 +111,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		778AA1CB1AD72CDA00DFD807 /* ToDoList WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				778AA1EB1AD72D5B00DFD807 /* ToDoList WatchKit Extension.entitlements */,
+				778AA1CE1AD72CDA00DFD807 /* InterfaceController.swift */,
+				778AA1EC1AD72F6B00DFD807 /* TableRowController.swift */,
+				778AA1D01AD72CDA00DFD807 /* Images.xcassets */,
+				778AA1CC1AD72CDA00DFD807 /* Supporting Files */,
+			);
+			path = "ToDoList WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		778AA1CC1AD72CDA00DFD807 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				778AA1CD1AD72CDA00DFD807 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		778AA1D81AD72CDA00DFD807 /* ToDoList WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				778AA1DB1AD72CDA00DFD807 /* Interface.storyboard */,
+				778AA1DE1AD72CDB00DFD807 /* Images.xcassets */,
+				778AA1D91AD72CDA00DFD807 /* Supporting Files */,
+			);
+			path = "ToDoList WatchKit App";
+			sourceTree = "<group>";
+		};
+		778AA1D91AD72CDA00DFD807 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				778AA1DA1AD72CDA00DFD807 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		77A529501AA03010007A0A3A = {
 			isa = PBXGroup;
 			children = (
 				77A5295B1AA03010007A0A3A /* ToDoList */,
 				77A529731AA03010007A0A3A /* ToDoListTests */,
+				778AA1CB1AD72CDA00DFD807 /* ToDoList WatchKit Extension */,
+				778AA1D81AD72CDA00DFD807 /* ToDoList WatchKit App */,
 				77A5295A1AA03010007A0A3A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +165,8 @@
 			children = (
 				77A529591AA03010007A0A3A /* ToDoList.app */,
 				77A529701AA03010007A0A3A /* ToDoListTests.xctest */,
+				778AA1CA1AD72CDA00DFD807 /* ToDoList WatchKit Extension.appex */,
+				778AA1D41AD72CDA00DFD807 /* ToDoList WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +174,7 @@
 		77A5295B1AA03010007A0A3A /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				778AA1EA1AD72D2600DFD807 /* ToDoList.entitlements */,
 				77A5295E1AA03010007A0A3A /* AppDelegate.swift */,
 				77A529601AA03010007A0A3A /* FirstViewController.swift */,
 				77A529621AA03010007A0A3A /* SecondViewController.swift */,
@@ -118,6 +214,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		778AA1C91AD72CDA00DFD807 /* ToDoList WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778AA1E81AD72CDB00DFD807 /* Build configuration list for PBXNativeTarget "ToDoList WatchKit Extension" */;
+			buildPhases = (
+				778AA1C61AD72CDA00DFD807 /* Sources */,
+				778AA1C71AD72CDA00DFD807 /* Frameworks */,
+				778AA1C81AD72CDA00DFD807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				778AA1D71AD72CDA00DFD807 /* PBXTargetDependency */,
+			);
+			name = "ToDoList WatchKit Extension";
+			productName = "ToDoList WatchKit Extension";
+			productReference = 778AA1CA1AD72CDA00DFD807 /* ToDoList WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		778AA1D31AD72CDA00DFD807 /* ToDoList WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778AA1E71AD72CDB00DFD807 /* Build configuration list for PBXNativeTarget "ToDoList WatchKit App" */;
+			buildPhases = (
+				778AA1D21AD72CDA00DFD807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ToDoList WatchKit App";
+			productName = "ToDoList WatchKit App";
+			productReference = 778AA1D41AD72CDA00DFD807 /* ToDoList WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		77A529581AA03010007A0A3A /* ToDoList */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77A5297A1AA03010007A0A3A /* Build configuration list for PBXNativeTarget "ToDoList" */;
@@ -125,10 +254,12 @@
 				77A529551AA03010007A0A3A /* Sources */,
 				77A529561AA03010007A0A3A /* Frameworks */,
 				77A529571AA03010007A0A3A /* Resources */,
+				778AA1E91AD72CDB00DFD807 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				778AA1E11AD72CDB00DFD807 /* PBXTargetDependency */,
 			);
 			name = ToDoList;
 			productName = ToDoList;
@@ -162,8 +293,26 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Rommel Rico";
 				TargetAttributes = {
+					778AA1C91AD72CDA00DFD807 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 4L2V3AB2J2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					778AA1D31AD72CDA00DFD807 = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					77A529581AA03010007A0A3A = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 4L2V3AB2J2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					77A5296F1AA03010007A0A3A = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -186,11 +335,31 @@
 			targets = (
 				77A529581AA03010007A0A3A /* ToDoList */,
 				77A5296F1AA03010007A0A3A /* ToDoListTests */,
+				778AA1C91AD72CDA00DFD807 /* ToDoList WatchKit Extension */,
+				778AA1D31AD72CDA00DFD807 /* ToDoList WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		778AA1C81AD72CDA00DFD807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778AA1D51AD72CDA00DFD807 /* ToDoList WatchKit App.app in Resources */,
+				778AA1D11AD72CDA00DFD807 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778AA1D21AD72CDA00DFD807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778AA1DD1AD72CDA00DFD807 /* Interface.storyboard in Resources */,
+				778AA1DF1AD72CDB00DFD807 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77A529571AA03010007A0A3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,6 +380,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		778AA1C61AD72CDA00DFD807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778AA1CF1AD72CDA00DFD807 /* InterfaceController.swift in Sources */,
+				778AA1EE1AD72F8300DFD807 /* TableRowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77A529551AA03010007A0A3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,6 +410,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		778AA1D71AD72CDA00DFD807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778AA1D31AD72CDA00DFD807 /* ToDoList WatchKit App */;
+			targetProxy = 778AA1D61AD72CDA00DFD807 /* PBXContainerItemProxy */;
+		};
+		778AA1E11AD72CDB00DFD807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778AA1C91AD72CDA00DFD807 /* ToDoList WatchKit Extension */;
+			targetProxy = 778AA1E01AD72CDB00DFD807 /* PBXContainerItemProxy */;
+		};
 		77A529721AA03010007A0A3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 77A529581AA03010007A0A3A /* ToDoList */;
@@ -240,6 +428,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		778AA1DB1AD72CDA00DFD807 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				778AA1DC1AD72CDA00DFD807 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		77A529641AA03010007A0A3A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,6 +455,74 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		778AA1E31AD72CDB00DFD807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ToDoList WatchKit Extension/ToDoList WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ToDoList WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		778AA1E41AD72CDB00DFD807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ToDoList WatchKit Extension/ToDoList WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "ToDoList WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		778AA1E51AD72CDB00DFD807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ToDoList_WatchKit_Extension;
+				INFOPLIST_FILE = "ToDoList WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		778AA1E61AD72CDB00DFD807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				IBSC_MODULE = ToDoList_WatchKit_Extension;
+				INFOPLIST_FILE = "ToDoList WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 		77A529781AA03010007A0A3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -342,9 +606,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ToDoList/ToDoList.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ToDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,9 +621,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ToDoList/ToDoList.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ToDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -395,6 +669,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		778AA1E71AD72CDB00DFD807 /* Build configuration list for PBXNativeTarget "ToDoList WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778AA1E51AD72CDB00DFD807 /* Debug */,
+				778AA1E61AD72CDB00DFD807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		778AA1E81AD72CDB00DFD807 /* Build configuration list for PBXNativeTarget "ToDoList WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778AA1E31AD72CDB00DFD807 /* Debug */,
+				778AA1E41AD72CDB00DFD807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		77A529541AA03010007A0A3A /* Build configuration list for PBXProject "ToDoList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -411,6 +701,7 @@
 				77A5297C1AA03010007A0A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77A5297D1AA03010007A0A3A /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +710,7 @@
 				77A5297F1AA03010007A0A3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
